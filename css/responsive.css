@@ -1,0 +1,1099 @@
+@media (max-width: 575px) {
+
+    /*========navbar part start========================*/
+
+    .navbar {
+        display: none;
+        /*
+        padding-top: 10px;
+        padding-bottom: 10px;
+*/
+    }
+
+    #accordian {
+        display: block;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar button {
+        outline: 0;
+    }
+
+    .navbar button i {
+        color: #ab1629;
+        margin-top: 35px;
+    }
+
+    .navbar ul {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav li {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav a {
+        display: inline-block;
+    }
+
+    .navbar .navbar-right .border-line::before {
+        top: 35px;
+        height: 1px;
+        width: 100%;
+    }
+
+    .navbar .navbar-right .border-line {
+        margin-right: 10px;
+    }
+
+    .navbar .navbar-right li:hover i {
+        color: #ab1629;
+    }
+
+    .navbar .navbar-right li:hover a {
+        color: #ab1629;
+    }
+
+    /*========navbar part end========================*/
+    /*========banner part start========================*/
+
+    #banner {
+        padding-top: 20px;
+    }
+
+    #banner #scene.santa-full {
+        display: none;
+    }
+
+    #banner .banner-dtls {
+        margin-left: 13px;
+        text-align: center;
+    }
+
+    #banner .banner-dtls h2 {
+        font-size: 20px;
+    }
+
+    #banner .banner-dtls h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    /*========banner part end========================*/
+    /*========gift part start========================*/
+
+    #gift-part {
+        background-position: center;
+        padding: 50px 0;
+    }
+
+    .heading p {
+        width: auto;
+    }
+
+    #gift-part .gift-left {
+        margin-bottom: 40px;
+    }
+
+    #gift-part .gift-left .gift-text {
+        top: 6%;
+    }
+
+    #gift-part .gift-left .gift-text a {
+        padding: 6px 14px;
+        font-size: 15px;
+    }
+
+    #gift-part .gift-right .gift-text {
+        right: 0;
+        top: 20%;
+    }
+
+    #gift-part .gift-right .gift-text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #gift-part .gift-right .gift-text a {
+        font-size: 15px;
+        padding: 6px 10px
+    }
+
+    /*========gift part end========================*/
+    /*========product part start========================*/
+
+    #product {
+        margin-bottom: 0;
+    }
+
+    .item-dtls h3 {
+        text-align: center;
+    }
+
+    .product-1 {
+        margin-bottom: 40px;
+    }
+
+
+    /*========product part end========================*/
+    /*========customer part start========================*/
+
+    #customer-part {
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    #customer-part .customer-1 {
+        margin: 20px 0;
+    }
+
+    /*========customer part end========================*/
+    /*========ticket part start========================*/
+
+    #ticket-part {
+        padding: 50px 0;
+    }
+
+    #ticket-part .ticket-dtls .ticket-btn {
+        margin-top: 40px;
+    }
+
+    #ticket-part .ticket-dtls a {
+        font-size: 16px;
+        padding: 10px 18px;
+        margin: 0 8px;
+    }
+
+    /*========ticket part end========================*/
+    /*========counter part start========================*/
+
+    #counter-part .counter-item {
+        padding: 30px 0;
+    }
+
+    #counter-part .counter-item h3 {
+        font-size: 24px;
+    }
+
+    #counter-part .counter-item p {
+        font-size: 30px;
+    }
+
+    /*========counter part end========================*/
+    /*========our blog part start========================*/
+
+    #our-blog {
+        padding: 40px 0 0 0;
+    }
+
+    #our-blog .heading {
+        margin-bottom: 60px;
+    }
+
+    #our-blog .blog-item {
+        margin-bottom: 80px;
+    }
+
+    .blog-footer p {
+        display: block;
+    }
+
+    .blog-footer .blg-footer-rt {
+        float: none;
+    }
+
+    .blog-footer .blg-footer-rt p {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    /*========our blog part end========================*/
+    /*========footer-top part start========================*/
+
+    #footer-top h3 {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+
+    #footer-top {
+        padding-top: 30px;
+    }
+
+    /*========footer-top part end========================*/
+    /*========footer-bottom part start========================*/
+
+    #footer-bottom .contact {
+        margin-bottom: 10px;
+    }
+
+    #footer-bottom .footer-logo {
+        margin-top: 10px;
+    }
+
+    /*========footer-bottom part end========================*/
+    /*=================product-gird-view part start================*/
+
+    #product-grid-view {
+        padding: 50px 0;
+    }
+
+    #product-grid-view .product-1 {
+        margin: 25px 0;
+    }
+
+    .breadcrumb.product-g li a {
+        font-size: 15px;
+    }
+
+    .discount-slider {
+        margin-top: 20px;
+    }
+
+    .sort-center {
+        text-align: center;
+    }
+
+    .sort-g {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pagination-right.prod-g {
+        text-align: center !important;
+        margin-top: 16px;
+    }
+
+    .sort-select span {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+
+    .sort-by select {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .showing-page p {
+        font-size: 15px;
+    }
+
+    /*=================product-gird-view with sidebar end================*/
+    /*=================product details start================*/
+
+    .xzoom {
+        margin-top: 30px;
+        width: 85% !important;
+    }
+
+    .prod-details .product-details {
+        margin-top: 12px;
+    }
+
+    .nav-tabs .nav-link:before {
+        width: 0;
+    }
+
+    .tab-part .nav-tabs,
+    .nav-tabs .nav-link {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .prod-bottom {
+        margin-bottom: 0 !important;
+    }
+
+    .tab-content p:last-child {
+        margin-bottom: 25px;
+    }
+
+    /*=================product details end================*/
+    /*=================blog details end================*/
+
+    #blog-details {
+        padding: 50px 0;
+    }
+
+    .tags a {
+        margin-bottom: 10px;
+    }
+
+    .blog-social-icon a i {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+
+    .hide-reply {
+        font-size: 0;
+    }
+
+    .total-comments {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .comments h6 {
+        margin-top: 20px;
+    }
+
+    .comments h6 span {
+        font-size: 13px;
+    }
+
+    .reply-box h5 {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 13px;
+        margin-top: 30px;
+    }
+
+    .comment-submit input {
+        margin-top: 17px;
+    }
+
+    .blog-top {
+        padding-top: 0 !important;
+    }
+
+    /*=================blog details end================*/
+    /*=================shoping details start================*/
+
+    #shoping-details {
+        padding: 50px 0;
+    }
+
+    #shoping-details .heading-top {
+        margin-top: 25px;
+    }
+
+    /*=================shoping details end================*/
+    /*=================contact page start================*/
+
+    #contact-page {
+        padding: 50px 0;
+    }
+
+    #contact-page .contact-info {
+        margin: 0 15px 0 15px;
+        text-align: center;
+    }
+
+    .contact-info .social-icons a i {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+        font-size: 14px;
+        margin: 3px;
+    }
+    
+    .contact-message {
+        margin: 0 15px 0 15px;
+    }
+
+    /*=================contact page end================*/
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*========navbar part start========================*/
+
+    .navbar {
+        display: none;
+        /*
+        padding-top: 10px;
+        padding-bottom: 10px;
+*/
+    }
+
+    #accordian {
+        display: block;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+
+    .navbar button {
+        outline: 0;
+    }
+
+    .navbar button i {
+        color: #ab1629;
+        margin-top: 35px;
+        font-size: 24px;
+    }
+
+    .navbar ul {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav li {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav a {
+        display: inline-block;
+    }
+
+    .navbar .navbar-right .border-line::before {
+        top: 35px;
+        height: 1px;
+        width: 100%;
+    }
+
+    .navbar .navbar-right .border-line {
+        margin-right: 10px;
+    }
+
+    .navbar .navbar-right li:hover i {
+        color: #ab1629;
+    }
+
+    .navbar .navbar-right li:hover a {
+        color: #ab1629;
+    }
+
+    /*========navbar part end========================*/
+    /*========banner part start========================*/
+
+    #banner {
+        padding-top: 20px;
+    }
+
+    #banner #scene.santa-full {
+        display: none;
+    }
+
+    #banner .banner-dtls {
+        margin-left: 13px;
+        text-align: center;
+    }
+
+    #banner .banner-dtls h2 {
+        font-size: 20px;
+    }
+
+    #banner .banner-dtls h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    /*========banner part end========================*/
+    /*========gift part start========================*/
+
+    #gift-part {
+        background-position: center;
+        padding: 50px 0;
+    }
+
+    .heading p {
+        width: auto;
+    }
+
+    #gift-part .gift-left {
+        margin-bottom: 40px;
+    }
+
+    #gift-part .gift-left .gift-text h2 {
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
+
+    #gift-part .gift-left .gift-text h3 {
+        font-size: 30px;
+    }
+
+    #gift-part .gift-left .gift-text a {
+        font-size: 20px;
+        padding: 8px 20px;
+    }
+
+    #gift-part .gift-right .gift-text h4 {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+
+    #gift-part .gift-right .gift-text h3 {
+        font-size: 30px;
+    }
+
+    #gift-part .gift-right .gift-text a {
+        font-size: 16px;
+        padding: 7px 15px
+    }
+
+    /*========gift part end========================*/
+    /*========product part start========================*/
+
+    #product-grid-view {
+        padding: 50px 0;
+    }
+
+    #product-grid-view .sort-by {
+        text-align: right;
+    }
+
+    #product {
+        margin-bottom: 0;
+    }
+
+    .product-1 {
+        margin-bottom: 40px;
+    }
+
+    .pagination-right.prod-g {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /*========product part end========================*/
+    /*========customer part start========================*/
+
+
+    #customer-part {
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    #customer-part .customer-1 {
+        margin: 20px 0;
+    }
+
+    /*========customer part end========================*/
+    /*========ticket part start========================*/
+
+    #ticket-part .ticket-dtls .ticket-btn {
+        margin-top: 40px;
+    }
+
+    #ticket-part .ticket-dtls a {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+
+    /*========ticket part end========================*/
+    /*========counter part start========================*/
+
+    #counter-part .counter-item {
+        padding: 30px 0;
+    }
+
+    #counter-part .counter-item h3 {
+        font-size: 24px;
+    }
+
+    #counter-part .counter-item p {
+        font-size: 30px;
+    }
+
+    /*========counter part end========================*/
+    /*========our blog part start========================*/
+
+    #our-blog {
+        padding: 40px 0 0 0;
+    }
+
+    #our-blog .heading {
+        margin-bottom: 60px;
+    }
+
+    #our-blog .blog-item {
+        margin-bottom: 80px;
+    }
+
+    .blog-footer p {
+        display: block;
+    }
+
+    .blog-footer .blg-footer-rt {
+        float: none;
+    }
+
+    .blog-footer .blg-footer-rt p {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    /*========our blog part end========================*/
+    /*========footer-top part start========================*/
+
+    #footer-top h3 {
+        margin-top: 30px;
+    }
+
+    #footer-top {
+        padding-top: 30px;
+    }
+
+    /*========footer-top part end========================*/
+    /*========footer-bottom part start========================*/
+
+    #footer-bottom .contact {
+        margin-bottom: 10px;
+    }
+
+    #footer-bottom a {
+        margin-left: 15px;
+        display: inline-block;
+    }
+
+    #footer-bottom .footer-logo {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    /*========footer-bottom part end========================*/
+    /*=================product-gird-view part start================*/
+
+    .discount-slider {
+        margin-top: 20px;
+    }
+
+    .sidebar-page .sort-center {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #product-grid-view .sort-by {
+        text-align: inherit;
+    }
+
+    #product-grid-view .product-1 {
+        margin: 25px 0;
+    }
+
+    /*=================product-gird-view part end================*/
+    /*=================product details start================*/
+
+    .xzoom {
+        margin-top: 30px;
+        width: 85% !important;
+    }
+
+    .prod-details .product-details {
+        margin-top: 12px;
+    }
+
+    .prod-bottom {
+        margin-bottom: 0 !important;
+    }
+
+    .tab-content p:last-child {
+        margin-bottom: 25px;
+    }
+
+    /*=================product details end================*/
+    /*=================blog details details end================*/
+
+    #blog-details {
+        padding: 50px 0;
+    }
+
+    .tags a {
+        margin-bottom: 10px;
+    }
+
+    .hide-reply {
+        font-size: 0;
+    }
+
+    .total-comments {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .comments h6 {
+        margin-top: 20px;
+    }
+
+    .comments h6 span {
+        font-size: 13px;
+    }
+
+    .reply-box h5 {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 13px;
+        margin-top: 30px;
+    }
+
+    .comment-submit input {
+        margin-top: 17px;
+    }
+
+    .blog-top {
+        padding-top: 0 !important;
+    }
+
+    /*=================blog details details end================*/
+    /*=================shoping details start================*/
+
+    #shoping-details {
+        padding: 50px 0;
+    }
+
+    #shoping-details .heading-top {
+        margin-top: 25px;
+    }
+
+    /*=================shoping details end================*/
+    /*=================contact page start================*/
+
+    #contact-page {
+        padding: 50px 0;
+    }
+    
+    /*=================contact page end================*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*========navbar part start========================*/
+
+    .navbar {
+        display: none;
+        /*
+        padding-top: 10px;
+        padding-bottom: 10px;
+*/
+    }
+
+    #accordian {
+        display: block;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+
+    .navbar button {
+        outline: 0;
+    }
+
+    .navbar ul {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav li {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav a {
+        display: inline-block;
+    }
+
+    .navbar .navbar-right .border-line::before {
+        top: 35px;
+        height: 1px;
+        width: 100%;
+    }
+
+    .navbar .navbar-right .border-line {
+        margin-right: 10px;
+    }
+
+    .navbar .navbar-right li:hover i {
+        color: #ab1629;
+    }
+
+    .navbar .navbar-right li:hover a {
+        color: #ab1629;
+    }
+
+    /*========navbar part end========================*/
+    /*========banner part start========================*/
+
+    #banner {
+        padding-top: 20px;
+    }
+
+    #banner #scene .banner-tree img {
+        left: -60px;
+        top: 0;
+        width: 100%;
+    }
+
+    #banner #scene .santa-man img {
+        left: 170px;
+        top: 50px;
+    }
+
+
+    #banner .banner-dtls {
+        text-align: right;
+    }
+
+    #banner .banner-dtls h2 {
+        font-size: 30px;
+    }
+
+    #banner .banner-dtls h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    /*========banner part end========================*/
+    /*========gift part start========================*/
+
+    #gift-part {
+        background-position: center;
+        padding: 50px 0;
+    }
+
+    .heading p {
+        width: auto;
+    }
+
+    #gift-part .gift-left {
+        margin-bottom: 40px;
+    }
+
+    #gift-part .gift-left .gift-text {
+        top: 5%;
+    }
+
+    #gift-part .gift-left .gift-text h2 {
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
+
+    #gift-part .gift-left .gift-text h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #gift-part .gift-left .gift-text a {
+        font-size: 16px;
+        padding: 6px 16px;
+    }
+
+    #gift-part .gift-right .gift-text h4 {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+
+    #gift-part .gift-right .gift-text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #gift-part .gift-right .gift-text a {
+        font-size: 16px;
+        padding: 7px 15px
+    }
+
+    /*========gift part end========================*/
+    /*========product part start========================*/
+
+    .showing-page p {
+        margin-top: 28px;
+    }
+
+    #product-grid-view {
+        padding: 50px 0;
+    }
+
+    #product {
+        margin-bottom: 0;
+    }
+
+    .product-1 {
+        margin-bottom: 40px;
+    }
+
+    .pagination-right.prod-g {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /*========product part end========================*/
+    /*========customer part start========================*/
+
+
+    #customer-part {
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    #customer-part .customer-1 {
+        margin: 26px 0;
+    }
+
+    /*========customer part end========================*/
+    /*========counter part start========================*/
+
+    #counter-part .counter-item {
+        padding: 30px 0;
+    }
+
+    #counter-part .counter-item h3 {
+        font-size: 24px;
+    }
+
+    #counter-part .counter-item p {
+        font-size: 30px;
+    }
+
+    /*========counter part end========================*/
+    /*========our blog part start========================*/
+
+    #our-blog {
+        padding: 40px 0 0 0;
+    }
+
+    #our-blog .heading {
+        margin-bottom: 60px;
+    }
+
+    #our-blog .blog-item {
+        margin-bottom: 80px;
+    }
+
+    .blog-footer p {
+        display: block;
+    }
+
+    .blog-footer .blg-footer-rt {
+        float: none;
+    }
+
+    .blog-footer .blg-footer-rt p {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    /*========our blog part end========================*/
+    /*========footer-top part start========================*/
+
+    #footer-top h3 {
+        margin-top: 30px;
+    }
+
+    #footer-top {
+        padding-top: 30px;
+    }
+
+    /*========footer-top part end========================*/
+    /*========footer-bottom part start========================*/
+
+    #footer-bottom .contact {
+        margin-bottom: 10px;
+    }
+
+    #footer-bottom a {
+        margin-left: 15px;
+        display: inline-block;
+    }
+
+    #footer-bottom .footer-logo {
+        margin-top: 10px;
+    }
+
+    /*========footer-bottom part end========================*/
+    /*=================product-gird-view part start================*/
+
+    #product-grid-view .product-1 {
+        margin: 25px 0;
+    }
+
+    .discount-slider {
+        margin-top: 20px;
+    }
+
+    .sidebar-page .sort-center {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    /*=================product-gird-view part end================*/
+    /*=================product details start================*/
+
+    .xzoom {
+        margin-top: 30px;
+        width: 85% !important;
+    }
+
+    .prod-details .product-details {
+        margin-top: 12px;
+    }
+
+    .prod-bottom {
+        margin-bottom: 0 !important;
+    }
+
+    .tab-content p:last-child {
+        margin-bottom: 25px;
+    }
+
+    /*=================product details end================*/
+    /*=================blog details details end================*/
+
+    #blog-details {
+        padding: 50px 0;
+    }
+
+    .tags a {
+        margin-bottom: 10px;
+    }
+
+    .hide-reply {
+        font-size: 0;
+    }
+
+    .total-comments {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .comments h6 {
+        margin-top: 20px;
+    }
+
+    .comments h6 span {
+        font-size: 13px;
+    }
+
+    .reply-box h5 {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 13px;
+        margin-top: 30px;
+    }
+
+    .comment-submit input {
+        margin-top: 17px;
+    }
+
+    .blog-top {
+        padding-top: 0 !important;
+    }
+
+    /*=================blog details details end================*/
+    /*=================shoping details start================*/
+
+    #shoping-details {
+        padding: 50px 0;
+    }
+
+    #shoping-details .heading-top {
+        margin-top: 25px;
+    }
+
+    /*=================shoping details end================*/
+    /*=================contact page start================*/
+    
+    #contact-page {
+        padding: 50px 0;
+    }
+    
+    /*=================contact page end================*/
+}

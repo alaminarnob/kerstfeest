@@ -1,0 +1,131 @@
+#accordian {
+    width: 85%;
+    background: #ab1629;
+    border-left: 10px solid #ab1629;
+    border-right: 10px solid #ab1629;
+}
+
+#accordian h3 {
+    font-size: 14px;
+    line-height: 34px;
+    cursor: pointer;
+    border-bottom: 1px solid #7b121f;
+    color: #fff;
+
+}
+
+#accordian ul .accord a {
+    color: #b9b9b9;
+    font-size: 14px;
+    line-height: 34px;
+    display: block;
+    padding-left: 10px;
+    transition: all .3s;
+}
+
+#accordian ul .accord a:before {
+    position: absolute;
+    content: '';
+    width: 20%;
+    border-top: 1px solid #fff;
+    bottom: 0;
+    left: 10px;
+    transition: all .3s;
+}
+
+#accordian ul .accord a:hover::before {
+    width: 100%;
+}
+
+#accordian ul .accord a:hover {
+    color: #fff;
+}
+
+#accordian .icon li a i {
+    margin-right: 10px;
+}
+
+.drop1 {
+    background: #fff
+}
+
+.drop1 > p {
+    padding: 10px 10px 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.drop1 p span {
+    color: #ab1629;
+}
+
+.drop1 img {
+    margin: 10px 0 5px 10px;
+    ;
+}
+
+.drop1 .santa-text {
+    vertical-align: middle;
+    padding-left: 0;
+}
+
+.drop1 a i {
+    color: #353535;
+    transition: all .3s;
+}
+
+.drop1 a:hover i {
+    color: #ab1629;
+}
+
+.last-drop {
+    background: #fff;
+    padding: 10px 0;
+}
+
+.border-line {
+    display: block;
+    position: relative;
+}
+
+.border-line p {
+    display: inline-block;
+    padding: 15px 10px 10px 10px;
+}
+
+.border-line .cost {
+    float: right;
+}
+
+.border-line:before{
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+}
+
+.button a {
+    font-size: 14px !important;
+    padding: 8px 10px !important;
+    margin: 20px 19px !important;
+}
+
+#accordian li h3 .fa-chevron-down {
+    float: right;
+    margin-top: 10px;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.navbar-toggler i {
+    color: #ab1629;
+}
+
+
